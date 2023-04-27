@@ -1,0 +1,16 @@
+{
+    "name": "hardhat",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+    "forwardPorts": [
+        7545, 8545
+    ],
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "NomicFoundation.hardhat-solidity@0.7.0"
+            ]
+        }
+    }
+}
